@@ -2,36 +2,76 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio - Gimnasio</title>
+    <meta name="description" content="Gimnasio Fuerza Total">
+    <title>Gimnasio Fuerza Total</title>
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
 
 <header>
+    <h1>
+        <svg fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        Fuerza Total
+    </h1>
+
     <nav>
-        <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pagina2.html">Entrenamientos</a></li>
-            <li><a href="pagina3.html">Horarios</a></li>
-            <li><a href="pagina4.html">Contacto</a></li>
-        </ul>
+        <a href="index.html">Inicio</a>
+        <a href="pagina2.html">Entrenamientos</a>
+        <a href="pagina3.html">Horarios</a>
+        <a href="pagina4.html">Contacto</a>
     </nav>
 </header>
 
 <main>
     <section>
-        <h1>Gimnasio Fuerza Total</h1>
+        <img src="assets/gym.jpg" alt="Gimnasio">
+
+        <h2>Encuentra tu mejor versión</h2>
+
         <p>
-            Bienvenido a Fuerza Total, un gimnasio diseñado para mejorar tu
-            fuerza, resistencia y bienestar.
+            Únete a nuestro gimnasio y mejora tu fuerza, resistencia
+            y bienestar físico con entrenadores profesionales.
         </p>
 
-        <img src="assets/gimnasio.jpg" alt="Gimnasio Fuerza Total">
+        <form>
+            <div class="busqueda">
+                <input type="text" placeholder="Buscar entrenamiento">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <header>
+            <h2>¿Por qué elegir nuestro gimnasio?</h2>
+            <p>Instalaciones modernas y entrenamientos personalizados</p>
+        </header>
+
+        <footer class="tarjetas">
+            <article>
+                <h3>Musculación</h3>
+                <p>Zona completa de pesas y máquinas</p>
+            </article>
+
+            <article>
+                <h3>Cardio</h3>
+                <p>Cintas, bicicletas y elípticas</p>
+            </article>
+
+            <article>
+                <h3>Funcional</h3>
+                <p>Entrenamientos dinámicos y efectivos</p>
+            </article>
+        </footer>
     </section>
 </main>
 
 <footer>
-    <p>Gimnasio Fuerza Total</p>
+    <small>&copy; Gimnasio Fuerza Total</small>
 </footer>
 
 </body>
