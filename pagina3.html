@@ -2,13 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Horarios</title>
-    <link rel="stylesheet" href="css/css.css">
+    <title>Horarios | Gimnasio Fuerza Total</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
 
 <header>
-    <h1>Horarios</h1>
+    <h1>
+        <svg fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        Fuerza Total
+    </h1>
+
     <nav>
         <a href="index.html">Inicio</a>
         <a href="pagina2.html">Entrenamientos</a>
@@ -18,7 +26,17 @@
 </header>
 
 <main>
-    <section>
+    <section class="inicio">
+        <img src="assets/HO.webp" alt="Horarios gimnasio">
+        <div class="contenido-inicio">
+            <h2>Horarios de apertura</h2>
+            <p>Consulta nuestros horarios para organizar tus entrenamientos y sacar el máximo provecho a tu tiempo en el gimnasio.</p>
+        </div>
+    </section>
+
+    <section class="horario">
+        <h2>Horario semanal</h2>
+        <p>Nos adaptamos a tus necesidades con horarios amplios durante toda la semana:</p>
         <table>
             <tr>
                 <th>Día</th>
@@ -32,12 +50,23 @@
                 <td>Sábado</td>
                 <td>9:00 - 14:00</td>
             </tr>
+            <tr>
+                <td>Domingos y festivos</td>
+                <td>Cerrado</td>
+            </tr>
         </table>
+        <p>Recuerda que nuestros entrenadores están disponibles durante todo el horario para ayudarte a mejorar tus entrenamientos.</p>
+    </section>
+
+    <section>
+        <h2>Consejos para tu rutina</h2>
+        <p>Mantener una rutina constante y equilibrada es clave para ver resultados. Aprovecha nuestros horarios flexibles y combina cardio, musculación y entrenamientos funcionales.</p>
+        <img src="assets/crossfit.jpg" alt="Entrenamiento en gimnasio" style="width:100%; border-radius:0.5rem; margin-top:1rem;">
     </section>
 </main>
 
 <footer>
-    <small>&copy; Gimnasio Fuerza Total</small>
+    <small>&copy; Gimnasio Fuerza Total Adrián Duque</small>
 </footer>
 
 </body>

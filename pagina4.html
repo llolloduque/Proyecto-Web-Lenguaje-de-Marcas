@@ -2,13 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="css/css.css">
+    <meta name="description" content="Gimnasio Fuerza Total">
+    <title>Contacto | Gimnasio Fuerza Total</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
 
 <header>
-    <h1>Contacto</h1>
+    <h1>
+        <svg fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        Fuerza Total
+    </h1>
+
     <nav>
         <a href="index.html">Inicio</a>
         <a href="pagina2.html">Entrenamientos</a>
@@ -18,15 +27,97 @@
 </header>
 
 <main>
-    <section>
-        <p>📍 Calle Fuerza nº10</p>
-        <p>📞 600 123 456</p>
-        <p>✉ contacto@gimnasio.com</p>
+    <!-- SECCIÓN INICIO CON FONDO AZUL OSCURO -->
+    <section class="inicio">
+        <img src="assets/CONT.jpeg" alt="Gimnasio de fondo">
+        <div class="contenido-inicio">
+            <h2>Contáctanos</h2>
+            <p>Si tienes dudas sobre entrenamientos, horarios o tarifas, estamos aquí para ayudarte.</p>
+        </div>
     </section>
+
+    <!-- SECCIÓN INFORMACIÓN DE CONTACTO -->
+    <section class="contacto-info">
+        <h2>Información de contacto</h2>
+        <p>Estamos disponibles para resolver tus consultas y ayudarte a mejorar tu bienestar físico.</p>
+        <p>📍 <strong>Dirección:</strong> Calle Fuerza nº10, Madrid</p>
+        <p>📞 <strong>Teléfono:</strong> 600 123 456</p>
+        <p>✉ <strong>Email:</strong> contacto@gimnasio.com</p>
+
+        <div class="redes-sociales">
+            <p>Síguenos en nuestras redes:</p>
+            <p>
+                <a href="#" target="_blank">Facebook</a> |
+                <a href="#" target="_blank">Instagram</a> |
+                <a href="#" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HORARIO -->
+    <section class="horario">
+        <h2>Horario de atención</h2>
+        <ul>
+            <li>Lunes a Viernes: 7:00 - 22:00</li>
+            <li>Sábados: 9:00 - 14:00</li>
+            <li>Domingos y festivos: Cerrado</li>
+        </ul>
+    </section>
+
+    <!-- SECCIÓN MAPA -->
+    <section class="mapa">
+        <h2>Ubícanos en el mapa</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.000000000000!2d-3.703790!3d40.416775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228b7f!2sMadrid!5e0!3m2!1ses!2ses!4v1234567890" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="formulario-contacto">
+        <h2>Envíanos un mensaje</h2>
+        <form>
+            <p>
+                <label>
+                    Nombre:<br>
+                    <input type="text" placeholder="Tu nombre" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Correo electrónico:<br>
+                    <input type="email" placeholder="tu@email.com" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Asunto:<br>
+                    <input type="text" placeholder="Motivo de tu mensaje" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Mensaje:<br>
+                    <textarea rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </label>
+            </p>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
 </main>
 
 <footer>
-    <small>&copy; Gimnasio Fuerza Total</small>
+    <small>&copy; Gimnasio Fuerza Total Adrián Duque</small>
 </footer>
 
 </body>

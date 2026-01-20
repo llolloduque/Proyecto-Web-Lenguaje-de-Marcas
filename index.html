@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Gimnasio Fuerza Total">
     <title>Gimnasio Fuerza Total</title>
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
 
@@ -27,24 +27,23 @@
 </header>
 
 <main>
-    <section>
-        <img src="assets/gym.jpg" alt="Gimnasio">
+    <!-- SECCIÓN INICIO CON FONDO -->
+    <section class="inicio">
+        <img src="assets/gym.jpg" alt="Gimnasio de fondo">
+        <div class="contenido-inicio">
+            <h2>Encuentra tu mejor versión</h2>
+            <p>Únete a nuestro gimnasio y mejora tu fuerza, resistencia y bienestar físico con entrenadores profesionales.</p>
 
-        <h2>Encuentra tu mejor versión</h2>
-
-        <p>
-            Únete a nuestro gimnasio y mejora tu fuerza, resistencia
-            y bienestar físico con entrenadores profesionales.
-        </p>
-
-        <form>
-            <div class="busqueda">
-                <input type="text" placeholder="Buscar entrenamiento">
-                <button type="submit">Buscar</button>
-            </div>
-        </form>
+            <form>
+                <div class="busqueda">
+                    <input type="text" placeholder="Buscar entrenamiento">
+                    <button type="submit">Inscríbete</button>
+                </div>
+            </form>
+        </div>
     </section>
 
+    <!-- SECCIÓN TARJETAS ENTRENAMIENTOS -->
     <section>
         <header>
             <h2>¿Por qué elegir nuestro gimnasio?</h2>
@@ -52,17 +51,20 @@
         </header>
 
         <footer class="tarjetas">
-            <article>
+            <article class="card">
+                <img src="assets/zonaM.jpg" alt="Zona de musculación">
                 <h3>Musculación</h3>
                 <p>Zona completa de pesas y máquinas</p>
             </article>
 
-            <article>
+            <article class="card">
+                <img src="assets/zonaC.jpg" alt="Zona de cardio">
                 <h3>Cardio</h3>
                 <p>Cintas, bicicletas y elípticas</p>
             </article>
 
-            <article>
+            <article class="card card-grande">
+                <img src="assets/fun.webp" alt="Entrenamiento funcional">
                 <h3>Funcional</h3>
                 <p>Entrenamientos dinámicos y efectivos</p>
             </article>
@@ -71,7 +73,7 @@
 </main>
 
 <footer>
-    <small>&copy; Gimnasio Fuerza Total</small>
+    <small>&copy; Gimnasio Fuerza Total Adrián Duque</small>
 </footer>
 
 </body>
